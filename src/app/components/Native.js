@@ -30,7 +30,7 @@ export default function Native() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/images/complication.png"
+            src="/images/Complication.png"
             alt="Complication Icon"
             width={100}
             height={100}

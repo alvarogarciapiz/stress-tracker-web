@@ -13,7 +13,7 @@ export default function Privacy() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/images/privacy.png"
+            src="/images/Privacy.png"
             alt="Privacy Icon"
             width={900}
             height={900}
