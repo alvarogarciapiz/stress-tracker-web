@@ -1,0 +1,26 @@
+.description {
+  font-family: var(--font-sf-pro-medium);
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 1.4;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  height: auto;
+}
+
+.description p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 01rem;
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .description p {
+    margin-bottom: 15px;
+  }
+}

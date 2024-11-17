@@ -1,0 +1,90 @@
+.privacyContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 10px 10vw;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.privacyCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fbfbfb; /* Gris muy claro */
+  padding: 10px; /* Reducir el padding */
+  margin: 10px;
+  border-radius: 15px; /* Reducir el radio del borde */
+  max-width: 48%; /* Reducir el ancho máximo */
+  flex: 1 1 48%; /* Asegura que las tarjetas ocupen el 45% del ancho cada una */
+  min-width: 200px;
+}
+
+.textContainer {
+  flex: 1;
+  margin-right: 16px; /* Ajustar margen para el texto */
+}
+
+.text {
+  font-size: 1.1rem; /* Reducir el tamaño del texto */
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+}
+
+.bold {
+  font-weight: bold;
+  color: #131313;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.imageContainer {
+  width: 16%; /* Reducir el ancho del contenedor de la imagen */
+  margin: 0 auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Reducir el radio del borde de la imagen */
+}
+
+@media (max-width: 768px) {
+  .privacyContainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px;
+    width: 100vw;
+    max-width: 78vw;
+  }
+
+  .privacyCard {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+    max-width: 100%;
+    min-height: 100px;
+  }
+
+  .textContainer {
+    margin-right: 10px;
+  }
+
+  .text {
+    font-size: 0.9rem; /* Ajustar el tamaño del texto en vista móvil */
+  }
+
+  .bold {
+    font-size: 0.9rem; /* Ajustar el tamaño del texto en vista móvil */
+  }
+
+  .imageContainer {
+    width: 20%; /* Ajustar el ancho del contenedor de la imagen en vista móvil */
+  }
+
+  .image {
+    width: 100%;
+  }
+}

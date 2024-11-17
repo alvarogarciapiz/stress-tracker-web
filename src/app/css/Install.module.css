@@ -1,0 +1,72 @@
+.install {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: var(--font-sf-pro-regular);
+}
+
+.button {
+  background: linear-gradient(180deg, #232329 0%, #100F11 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+  font-family: var(--font-sf-pro-semibold);
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.button:hover {
+  background-color: #1a1a1d;
+}
+
+.imageContainer {
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 2vw;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+  }
+  
+  .button {
+    width: 50%;
+  }
+
+  .imageContainer {
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

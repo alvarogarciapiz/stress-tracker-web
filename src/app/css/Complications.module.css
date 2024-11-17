@@ -1,0 +1,65 @@
+.complicationsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fbfbfb; /* Gris muy claro */
+  padding: 20px;
+  margin: 20px 10vw; /* Añadir margen a los lados */
+  border-radius: 20px;
+  max-width: 800px;
+}
+
+.imageContainer {
+  flex-shrink: 0;
+  margin-right: 5vw;
+  margin-left: 3vw;
+  width: 35%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.title {
+  font-size: 2.5rem; /* Hacer el título más grande */
+  font-weight: bold;
+  color: #131313;
+  font-family: var(--font-sf-pro-bold);
+}
+
+@media (max-width: 768px) {
+  .complicationsCard {
+    flex-direction: column;
+    align-items: center; /* Centrar elementos horizontalmente */
+    margin: 10px 0;
+    text-align: center; /* Asegurar que el texto esté centrado */
+  }
+
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center; /* Centrar la imagen horizontalmente */
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center; /* Centrar el texto del contenedor */
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center; /* Asegurar que el título esté centrado */
+  }
+}

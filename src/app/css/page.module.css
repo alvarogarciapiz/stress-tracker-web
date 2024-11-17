@@ -1,0 +1,13 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .page {
+    padding: 32px;
+  }
+}

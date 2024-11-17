@@ -1,7 +1,65 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-sf-pro-light: 'SF Pro Light', sans-serif;
+  --font-sf-pro-regular: 'SF Pro Regular', sans-serif;
+  --font-sf-pro-medium: 'SF Pro Medium', sans-serif;
+  --font-sf-pro-semibold: 'SF Pro Semibold', sans-serif;
+  --font-sf-pro-bold: 'SF Pro Bold', sans-serif;
 }
+
+.font-light {
+  font-family: var(--font-sf-pro-light);
+  font-weight: 300;
+}
+
+.font-regular {
+  font-family: var(--font-sf-pro-regular);
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: var(--font-sf-pro-medium);
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-family: var(--font-sf-pro-semibold);
+  font-weight: 600;
+}
+
+.font-bold {
+  font-family: var(--font-sf-pro-bold);
+  font-weight: bold;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  font-family: var(--font-sf-pro-regular);
+  max-width: 100vw;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sf-pro-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* PARA MODO OSCURO/CLARO
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -10,33 +68,8 @@
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */

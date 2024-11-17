@@ -1,0 +1,84 @@
+.pricingContainer {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 10vw; /* Añadir margen a los lados */
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 20px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.price {
+  font-size: 4rem; /* Hacer el precio más grande */
+  font-weight: bold;
+  color: #131313;
+  font-family: var(--font-sf-pro-bold);
+  margin-bottom: 10px; /* Añadir margen inferior */
+  flex: 1;
+  text-align: left;
+}
+
+.descriptionContainer {
+  flex: 2;
+  text-align: right;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+  margin-bottom: 20px; /* Añadir margen inferior */
+}
+
+.button {
+  background: linear-gradient(180deg, #232329 0%, #100F11 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 15px;
+  font-family: var(--font-sf-pro-semibold);
+}
+
+.button:hover {
+  background-color: #1a1a1d;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    font-size: 2.5rem; /* Ajustar el tamaño del precio en vista móvil */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .descriptionContainer {
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem; /* Ajustar el tamaño de la descripción en vista móvil */
+    margin-bottom: 20px;
+  }
+
+  .button {
+    width: 100%; /* Ajustar el ancho del botón en vista móvil */
+  }
+}
