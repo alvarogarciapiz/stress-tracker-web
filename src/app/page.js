@@ -4,6 +4,7 @@ import Bar from "./components/Bar";
 import BarMobile from "./components/BarMobile";
 import Hero from "./components/Hero";
 import Description from "./components/Description";
+import Suscribe from "./components/Suscribe";
 import Feature1 from "./components/Feature1";
 import Privacy from "./components/Privacy";
 import Feature2 from "./components/Feature2";
@@ -22,6 +23,7 @@ export default function Home() {
         <BarMobile />
         <Hero />
         <Description />
+        <Suscribe />
         <Feature1 />
         <Privacy />
         <Feature2 />

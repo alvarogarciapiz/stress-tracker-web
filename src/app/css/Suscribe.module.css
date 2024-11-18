@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 60vw;
+  margin-bottom: 2vh;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 10px;
+  font-family: var(--font-sf-pro-bold);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  font-family: var(--font-sf-pro-regular);
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 90vw;
+    padding: 20px 10px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 80vw;
+    padding: 30px 15px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 50vw;
+  }
+}
