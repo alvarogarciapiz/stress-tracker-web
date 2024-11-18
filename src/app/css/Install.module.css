@@ -2,7 +2,8 @@
   text-align: center;
   padding: 40px 20px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 60vw;
+  margin-bottom: 10vh;
 }
 
 .title {
@@ -39,10 +40,8 @@
 }
 
 .imageContainer {
-  width: 50%;
-  max-width: 600px;
+  width: 80%;
   margin: 0 auto;
-  padding-left: 2vw;
 }
 
 .image {
@@ -52,12 +51,20 @@
 }
 
 @media (max-width: 768px) {
+
+  .install {
+    max-width: 100vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+
   .title {
     font-size: 2rem;
   }
   
   .description {
     font-size: 1.2rem;
+
   }
   
   .button {
@@ -65,8 +72,7 @@
   }
 
   .imageContainer {
-    width: 60%;
-    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
   }
 }

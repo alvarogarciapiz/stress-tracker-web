@@ -13,11 +13,11 @@ export default function Install() {
       </button>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/recovery-orange.png"
+          src="/images/installNow.png"
           alt="Imagen de Install"
           className={styles.image}
-          width={600}
-          height={400}
+          width={6041}
+          height={2637}
         />
       </div>
     </section>

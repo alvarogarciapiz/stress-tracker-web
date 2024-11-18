@@ -10,6 +10,7 @@
   color: #131313;
   margin-bottom: 20px;
   font-family: var(--font-sf-pro-bold);
+  margin-bottom: 4vh;
 }
 
 .content {
@@ -24,7 +25,7 @@
   font-weight: bold;
   color: #131313;
   font-family: var(--font-sf-pro-bold);
-  margin-bottom: 10px; /* Añadir margen inferior */
+  margin-bottom: 10px;
   flex: 1;
   text-align: left;
 }
@@ -46,7 +47,7 @@
   color: white;
   border: none;
   border-radius: 20px;
-  padding: 8px 4px;
+  padding: 8px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 15px;
@@ -79,6 +80,7 @@
   }
 
   .button {
-    width: 100%; /* Ajustar el ancho del botón en vista móvil */
+    width: 100%;
+    padding: 8px 4px;
   }
 }
