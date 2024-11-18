@@ -13,7 +13,7 @@ export default function Install() {
       </button>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/installNow.png"
+          src="/images/InstallNow.png"
           alt="Imagen de Install"
           className={styles.image}
           width={6041}
