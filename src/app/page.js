@@ -19,6 +19,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
+      <Analytics />
       <div className={styles.page}>
         <Bar />
         <BarMobile />
@@ -34,7 +35,6 @@ export default function Home() {
         <Pricing />
         <Install />
       </div>
-      <Footer />
     </div>
   );
 }

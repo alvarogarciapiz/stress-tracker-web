@@ -5,6 +5,7 @@ export default function BarMobile() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logoContainer}>
+        <a href="/">
         <Image
           src="/images/AppIconDark.png"
           alt="Logo"
@@ -12,7 +13,8 @@ export default function BarMobile() {
           height={30}
           className={styles.logo}
         />
-        <a className={styles.logoText}>Stress App</a>
+        </a>
+        <a href="/" className={styles.logoText}>Stress App</a>
       </div>
       <button className={styles.button}>
         Get the app

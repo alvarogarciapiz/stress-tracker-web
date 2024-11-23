@@ -30,11 +30,14 @@ export const metadata = {
   description: "Your personal stress management tool on your wrist.",
 };
 
+import Footer from "./components/Footer";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${sfProRegular.variable} ${sfProMedium.variable} ${sfProSemibold.variable} ${sfProBold.variable}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

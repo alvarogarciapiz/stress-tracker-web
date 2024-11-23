@@ -13,6 +13,18 @@
   font-family: var(--font-sf-pro-bold);
 }
 
+.subtitle {
+  font-size: 3rem;
+  color: #ffffff;
+  background-color: rgb(109, 119, 230);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 6px 30px;
+  font-family: var(--font-sf-pro-bold);
+  border-radius: 20px;
+  transform: rotate(-3deg);
+}
+
 .description {
   font-size: 1.25rem;
   color: #666;
@@ -46,6 +58,18 @@
   .description {
     font-size: 1.1rem;
     max-width: 100vw;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: rgb(109, 119, 230);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 6px 30px;
+    font-family: var(--font-sf-pro-bold);
+    border-radius: 20px;
+    transform: rotate(-3deg);
   }
 
   .imageContainer {

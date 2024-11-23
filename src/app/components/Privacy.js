@@ -8,7 +8,7 @@ export default function Privacy() {
         <div className={styles.textContainer}>
           <p className={styles.text}>
             <span className={styles.bold}>Privacy First: </span>
-              Your stress data and insights stays always on your device.
+              Your stress data and insights stays always on-device.
           </p>
         </div>
         <div className={styles.imageContainer}>
@@ -25,7 +25,7 @@ export default function Privacy() {
         <div className={styles.textContainer}>
           <p className={styles.text}>
             <span className={styles.bold}>HealthKit Integration: </span>
-              We gather the most precise HRV data from your Apple Watch to provide personalized stress insights.
+              HRV data is gathered from your Apple Watch using HealtKit to provide personalized stress insights.
           </p>
         </div>
         <div className={styles.imageContainer}>

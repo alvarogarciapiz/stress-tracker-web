@@ -5,7 +5,7 @@ export default function Description() {
     <section className={styles.description}>
       <p>
         Remember when life felt lighter? Like stress was just a passing cloud?
-        Now, it feels different. ⏰ Busy schedules. ☑️ Endless to-do lists.
+        Now, it feels different. Busy schedules ⏰. Endless to-do lists ☑️.
         Moments when your body tells you to slow down but you’re not even sure why.
       </p>
       <p>
