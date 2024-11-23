@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import styles from "./css/page.module.css";
 
 import Bar from "./components/Bar";
