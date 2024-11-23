@@ -14,15 +14,14 @@
 }
 
 .subtitle {
-  font-size: 3rem;
-  color: #ffffff;
-  background-color: rgb(109, 119, 230);
+  font-size: 1.5rem;
+  color: white;
+  background: linear-gradient(180deg, #35353d 0%, #100F11 100%);
   width: fit-content;
   margin: 0 auto;
-  padding: 6px 30px;
-  font-family: var(--font-sf-pro-bold);
-  border-radius: 20px;
-  transform: rotate(-3deg);
+  padding: 8px 34px;
+  font-family: var(--font-sf-pro-semibold);
+  border-radius: 16px;
 }
 
 .description {
@@ -61,15 +60,14 @@
   }
 
   .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #ffffff;
     background-color: rgb(109, 119, 230);
     width: fit-content;
     margin: 0 auto;
     padding: 6px 30px;
-    font-family: var(--font-sf-pro-bold);
-    border-radius: 20px;
-    transform: rotate(-3deg);
+    border-radius: 10px;
+    position: relative;
   }
 
   .imageContainer {
