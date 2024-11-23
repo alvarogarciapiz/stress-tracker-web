@@ -1,32 +1,26 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const sfProLight = localFont({
-  src: "./fonts/SF-Pro-Display-Light.otf",
-  variable: "--font-sf-pro-light",
-  weight: "300",
-});
-
 const sfProRegular = localFont({
-  src: "./fonts/SF-Pro-Display-Regular.otf",
+  src: "./fonts/SF-Pro-Display-Regular.woff2",
   variable: "--font-sf-pro-regular",
   weight: "400",
 });
 
 const sfProMedium = localFont({
-  src: "./fonts/SF-Pro-Display-Medium.otf",
+  src: "./fonts/SF-Pro-Display-Medium.woff2",
   variable: "--font-sf-pro-medium",
   weight: "500",
 });
 
 const sfProSemibold = localFont({
-  src: "./fonts/SF-Pro-Display-Semibold.otf",
+  src: "./fonts/SF-Pro-Display-Semibold.woff2",
   variable: "--font-sf-pro-semibold",
   weight: "600",
 });
 
 const sfProBold = localFont({
-  src: "./fonts/SF-Pro-Display-Bold.otf",
+  src: "./fonts/SF-Pro-Display-Bold.woff2",
   variable: "--font-sf-pro-bold",
   weight: "700",
 });
@@ -39,7 +33,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sfProLight.variable} ${sfProRegular.variable} ${sfProMedium.variable} ${sfProSemibold.variable} ${sfProBold.variable}`}>
+      <body className={`${sfProRegular.variable} ${sfProMedium.variable} ${sfProSemibold.variable} ${sfProBold.variable}`}>
         {children}
       </body>
     </html>

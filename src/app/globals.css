@@ -1,16 +1,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-sf-pro-light: 'SF Pro Light', sans-serif;
   --font-sf-pro-regular: 'SF Pro Regular', sans-serif;
   --font-sf-pro-medium: 'SF Pro Medium', sans-serif;
   --font-sf-pro-semibold: 'SF Pro Semibold', sans-serif;
   --font-sf-pro-bold: 'SF Pro Bold', sans-serif;
-}
-
-.font-light {
-  font-family: var(--font-sf-pro-light);
-  font-weight: 300;
 }
 
 .font-regular {
