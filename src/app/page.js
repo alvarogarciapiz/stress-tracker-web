@@ -14,7 +14,7 @@ import Feature3 from "./components/Feature3";
 import Complications from "./components/Complications";
 import Install from "./components/Install";
 import Pricing from "./components/Pricing";
-import Footer from "./components/Footer";
+import Sleep from "./components/Sleep";
 
 export default function Home() {
   return (
@@ -29,6 +29,7 @@ export default function Home() {
         <Feature1 />
         <Privacy />
         <Feature2 />
+        <Sleep /> 
         <Native />
         <Feature3 />
         <Complications />
