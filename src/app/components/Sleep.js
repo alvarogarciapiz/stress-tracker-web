@@ -23,6 +23,7 @@ export default function Feature3() {
           autoPlay
           loop
           muted
+          playsInline
           className={styles.video}
         ></video>
       </div>
