@@ -25,6 +25,7 @@ export default function Footer() {
         </div>
         <div className={styles.column}>
           <h4 className={styles.columnTitle}>Support</h4>
+          <a href="/blog" className={styles.link}>Blog</a>
           <a href="/faq#contact" className={styles.link}>Contact</a>
           <a href="/faq" className={styles.link}>Help and FAQ</a>
           <a href="/press-kit" className={styles.link}>Press Kit</a>

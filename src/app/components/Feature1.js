@@ -11,13 +11,20 @@ export default function Feature1() {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <Image
+        {/* <Image
           src="/images/recovery.png"
           alt="Recovery Insights"
           width={1540}
           height={2336}
           className={styles.image}
-        />
+        /> */}
+        <video
+          src="/videos/recovery.mp4"
+          autoPlay
+          loop
+          muted
+          className={styles.video}
+        ></video>
       </div>
     </div>
   );

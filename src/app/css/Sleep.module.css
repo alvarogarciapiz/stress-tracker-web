@@ -49,6 +49,12 @@
   border-radius: 10px;
 }
 
+.video {
+  width: 100%;
+  height: auto;
+  border: 0px;
+}
+
 @media (max-width: 768px) {
   .featureCard {
     flex-direction: column;

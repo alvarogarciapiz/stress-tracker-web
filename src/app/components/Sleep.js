@@ -11,13 +11,20 @@ export default function Feature3() {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <Image
+        {/* <Image
           src="/images/sleep.png"
           alt="Sleep Insights"
           width={1512}
           height={2268}
           className={styles.image}
-        />
+        /> */}
+        <video
+          src="/videos/sleep.mp4"
+          autoPlay
+          loop
+          muted
+          className={styles.video}
+        ></video>
       </div>
     </div>
   );
