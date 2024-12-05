@@ -14,6 +14,8 @@
 
 .logo {
   display: inline-block;
+  width: 3vw;
+  height: auto;
 }
 
 .linksContainer {
@@ -50,6 +52,10 @@
 @media (max-width: 768px) {
   .footer {
     padding: 4vh 10vw;
+  }
+
+  .logo {
+    width: 9vw;
   }
 
   .logoContainer {

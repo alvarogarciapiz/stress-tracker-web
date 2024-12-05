@@ -10,8 +10,8 @@ export default function Footer() {
           <Image
             src="/images/AppIconDark.png"
             alt="Logo"
-            width={50}
-            height={50}
+            width={1024}
+            height={1024}
             className={styles.logo}
           />
         </Link>

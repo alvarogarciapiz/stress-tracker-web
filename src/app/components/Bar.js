@@ -10,8 +10,9 @@ export default function Bar() {
         <Image
           src="/images/AppIconDark.png"
           alt="Logo"
-          width={32}
-          height={32}
+          priority
+          width={1024}
+          height={1024}
         />
       </div>
       </Link>
